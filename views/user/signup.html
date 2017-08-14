@@ -1,0 +1,21 @@
+<% layout('layout') -%>
+<link rel="stylesheet" href="/css/login.css">
+<hgroup>
+    <h1>Material Login Form</h1>
+</hgroup>
+<form action="" method="post" autocomplete="off">
+    <div class="group">
+        <input type="text" name="name" autocomplete="off"><span class="highlight"></span><span class="bar"></span>
+        <label>Name</label>
+    </div>
+    <div class="group">
+        <input type="password" name="password" autocomplete="off"><span class="highlight"></span><span class="bar"></span>
+        <label>Password</label>
+    </div>
+    <button type="submit" class="button buttonBlue">Signup
+        <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+    </button>
+    <a href="/login" class="button buttonBlue">Login
+        <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+    </a>
+</form>

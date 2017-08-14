@@ -1,0 +1,19 @@
+nav ul a, nav .brand-logo {
+    color: #444;
+}
+
+.parallax-container{
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+@media only screen and (min-width: 993px) {
+
+}

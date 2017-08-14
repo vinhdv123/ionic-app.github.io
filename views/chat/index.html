@@ -1,0 +1,30 @@
+<% layout('layout') -%>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/chat.js"></script>
+<link rel="stylesheet" href="/css/chat.css">
+
+<div class="mdl-card mdl-cell mdl-cell--9-col">
+    <div class="wrapper">
+        <div id="inner" class="inner">
+            <div id="content" class="content">
+                <ul>
+
+                </ul>
+            </div>
+        </div>
+        <div id="bottom" class="bottom">
+            <form action="" method="post">
+                <textarea id="input" class="input" placeholder="Enter message"></textarea>
+                <button id="send" type="submit" class="send"></button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="mdl-card mdl-cell mdl-cell--3-col">
+    <div class="demo-list-action mdl-list" id="list-user">
+
+    </div>
+</div>
+
+
+
